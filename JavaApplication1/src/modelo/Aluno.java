@@ -3,15 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package alunoos;
+package modelo;
 
 /**
  *
  * @author Administrador
  */
 public class Aluno {
+
     private int codigo;
     private String nome;
+    private String endereco;
 
     public int getCodigo() {
         return codigo;
@@ -41,6 +43,5 @@ public class Aluno {
     public void setEndereco(String endereco) {
         this.endereco = endereco;
     }
-    private String endereco;
-    
+
 }
