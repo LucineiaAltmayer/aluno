@@ -23,17 +23,17 @@ public class Aluno {
         this.codigo = codigo;
     }
 
+    @Override
+    public String toString() {
+        return sexo ;
+    }
+
     public String getNome() {
         return nome;
     }
 
     public void setNome(String nome) {
         this.nome = nome;
-    }
-
-    @Override
-    public String toString() {
-        return "Aluno{" + "nome=" + nome + '}';
     }
 
     public String getEndereco() {
@@ -43,5 +43,15 @@ public class Aluno {
     public void setEndereco(String endereco) {
         this.endereco = endereco;
     }
+
+    public String getSexo() {
+        return sexo;
+    }
+
+    public void setSexo(String sexo) {
+        this.sexo = sexo;
+    }
+    private String sexo;
+    
 
 }
