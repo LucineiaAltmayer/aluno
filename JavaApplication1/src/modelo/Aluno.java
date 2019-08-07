@@ -11,47 +11,56 @@ package modelo;
  */
 public class Aluno {
 
-    private int codigo;
-    private String nome;
-    private String endereco;
+    private int Codigo;
+    private String Nome;
+    private String Endereco;
+    private String Sexo;
 
     public int getCodigo() {
-        return codigo;
-    }
-
-    public void setCodigo(int codigo) {
-        this.codigo = codigo;
+        return Codigo;
     }
 
     @Override
     public String toString() {
-        return sexo ;
+        return  Nome ;
+    }
+
+    public void setCodigo(int Codigo) {
+        this.Codigo = Codigo;
     }
 
     public String getNome() {
-        return nome;
+        return Nome;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setNome(String Nome) {
+        this.Nome = Nome;
     }
 
     public String getEndereco() {
-        return endereco;
+        return Endereco;
     }
 
-    public void setEndereco(String endereco) {
-        this.endereco = endereco;
+    public void setEndereco(String Endereco) {
+        this.Endereco = Endereco;
     }
 
     public String getSexo() {
-        return sexo;
+        return Sexo;
     }
 
-    public void setSexo(String sexo) {
-        this.sexo = sexo;
+    public void setSexo(String Sexo) {
+        this.Sexo = Sexo;
     }
-    private String sexo;
-    
+
+    public String getSobrenome() {
+        return Sobrenome;
+    }
+
+    public void setSobrenome(String Sobrenome) {
+        this.Sobrenome = Sobrenome;
+    }
+    private String Sobrenome;
+   
 
 }
